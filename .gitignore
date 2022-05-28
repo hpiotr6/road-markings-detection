@@ -130,3 +130,5 @@ dmypy.json
 
 .vscode
 rosbag
+imgs_raw
+labels.csv
