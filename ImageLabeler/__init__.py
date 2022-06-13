@@ -9,7 +9,7 @@ def load_images_from_folder(folder):
         img = cv2.imread(os.path.join(folder, filename))
         cv2.imshow(str(idx), img)
         key = cv2.waitKey(1)
-        print("0-background, 1-sign-20: \t")
+        print("0-background, 1-sign-20, 2-sign30: \t")
         chosen_idx = input()
         os.system("cls" if os.name == "nt" else "clear")
         if img is not None:
