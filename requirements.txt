@@ -1,0 +1,11 @@
+torch
+Pillow
+numpy
+opencv-python
+torchvision
+pandas
+matplotlib
+ipykernel
+sklearn
+albumentations
+torchsummary
